@@ -71,6 +71,8 @@ class Browser:
         print(self.name, "md5 ok")
         return self
 
+    """you also cant define your self check code ..."""
+
     def want(self, wants: dict):
         """want check."""
         for key in wants.keys():

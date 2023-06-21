@@ -4,7 +4,7 @@ import yaml
 
 data = yaml.load(open('/test/test.yaml', encoding='UTF-8'),
                  Loader=yaml.BaseLoader)
-print(data)
+
 try:
     for item in enumerate(data['spec']):
         b = Browser(item[1]['headers'])
