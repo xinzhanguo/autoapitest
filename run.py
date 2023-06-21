@@ -1,7 +1,7 @@
 from browser import Browser
 import yaml
 
-
+# your also change the path to your self test case yaml.
 data = yaml.load(open('/test/test.yaml', encoding='UTF-8'),
                  Loader=yaml.BaseLoader)
 
